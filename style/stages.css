@@ -1,0 +1,105 @@
+.stages__title {
+  font-family: 'Merriweather',sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.session-author_stages {
+  margin-bottom: 144px;
+}
+.stages__list {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 184px;
+}
+.stages__container{
+  position: relative;
+}
+.stages__image{
+ width: 336px;
+ height: 182px;
+ position: absolute;
+ bottom:430px;
+ z-index: 1;
+}
+.stages__item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 62px 0px 10px 0px;
+  margin-right: 0;
+  min-width:100%;
+  min-height: 230px;
+  background-image: url(../img/stages/bg.jpg);
+  background-position: center;
+  background-size:cover ;
+  background-color:  #d9d9d9;
+}
+
+.stages__list-content{
+  margin-bottom: 28px;
+  display: flex;
+  padding-left: 20px;
+}
+.stages__list-number{
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.stages__list-text{
+  max-width: 240px;
+}
+.stages__panel{
+  position: absolute;
+  bottom:120px;
+  left:50%;
+  right: 0;
+  transform: translateX(-50%);
+  display: flex;
+  width: 178px;
+}
+
+.stages__buttons {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(49, 49, 49,1);
+  background-image: url(../img/stages/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stages__buttons.swiper-button-next:after,
+.stages__buttons.swiper-button-prev:after {
+  content: '';
+}
+.stages__buttons_prev {
+  transform: rotate(180deg);
+}
+
+.stages__pagination .swiper-pagination-horizontal{
+  top: 20px;
+}
+.stages__pagination .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  top: -18px;
+}
+
+@media(min-width:768px){
+  .stages__list-text {
+    max-width: 300px;
+    margin: 0 auto;
+}
+}
+@media(min-width:1366px){
+
+
+}
+

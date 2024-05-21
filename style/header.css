@@ -1,0 +1,37 @@
+.header {
+  padding-top: 18px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.logo-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo-link__image {
+  width: 79px;
+  height: 27px;
+  margin-right: 5px;
+
+}
+.logo-link__text {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #595653;
+  line-height: 1.08;
+}
+@media(min-width:1366px){
+  .header {
+    padding-top: 26px;
+  }
+ .logo-link__text {
+    font-size: 16px;
+  }
+  .logo-link__image {
+      width: 91px;
+      height: 31px;
+  }
+}

@@ -1,0 +1,67 @@
+.participants {
+}
+.container {
+}
+.participants__title {
+  font-family: 'Merriweather',sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #313131;
+  margin-bottom: 40px;
+}
+
+.list {
+  overflow: hidden;
+  position: relative;
+  padding-bottom:176px;
+}
+.list__item {
+  text-align: center;
+}
+.swiper-slide {
+}
+.list__image {
+  width: 244px;
+  height: 244px;
+  margin: 0 auto 28px auto;
+}
+.list__title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.list__text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 0.6;
+}
+.list__link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3057a2;
+  padding: 7px;
+  border: 1px solid #3057a2;
+  border-radius: 62px;
+  width: 113px;
+  margin: 0 auto;
+}
+@media(min-width:1366px){
+  .participants__title {
+    font-size: 54px;
+    margin-bottom: 60px;
+  }
+  .list {
+    padding-bottom:140px;
+  }
+  .list__image {
+    width: 320px;
+    height: 320px;
+  }
+  .participants .stages__panel{
+   bottom: 65px;
+  }
+}
