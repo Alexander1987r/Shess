@@ -21,6 +21,7 @@
   </div>
  </header>
  <main class="main">
+
   <h1 class="visually-hidden">
     Шахматный турнир
   </h1>
@@ -41,20 +42,34 @@
       </p>
       <ul class="hero__list">
         <li class="hero__item">
-         <a class="hero__link" href="#">
+         <a class="hero__link" href="#lec">
           Поддержать шахматную мысль
          </a>
         </li>
         <li class="hero__item">
-          <a class="hero__link hero__link_color" href="#">
+          <a class="hero__link hero__link_color" href="#session">
             Подробнее о турнире
           </a>
          </li>
       </ul>
     </div>
+
   </section>
 
-  <section class="lecture">
+  <section class="lecture" id="lec">
+    <div class="tickers">
+      <div class="tickers__wrapper">
+        <p class="tickers__slide">
+         - Помощь утопающим — дело рук самих утопающих!
+        </p>
+        <p class="tickers__slide">
+          * Шахматы двигают вперёд не только культуру, но и экономику!
+        </p>
+        <p class="tickers__slide">
+          Лед тронулся, господа присяжные заседатели!
+        </p>
+      </div>
+    </div>
     <h2 class="visually-hidden">
       Лекция турнира
     </h2>
@@ -72,7 +87,7 @@
     </div>
   </section>
 
-  <section class="session">
+  <section class="session" id="session">
     <h2 class="visually-hidden">Сеанс</h2>
     <div class="container session__container">
     <img class="session__image" src="img/session/session.png" alt="Фото" width="335" height="402">
@@ -135,146 +150,157 @@
     <div class="container stages__container">
      <h2 class="stages__title">
       Этапы преображения Васюков
+      <span class="session-author session-author_stages ">
+        Будущие источники обогащения васюкинцев
+      </span>
      </h2>
-     <p class="session-author session-author_stages ">
-      Будущие источники обогащения васюкинцев
-     </p>
-      <div class="stages__list ">
-         <div class="stages__wrapper swiper-wrapper">
-          <div class="stages__item swiper-slide">
-            <p class="stages__list-content">
-              <span class="stages__list-number">1</span>
-              <span class="stages__list-text">
-                Строительство железнодорожной магистрали Москва-Васюки
-              </span>
 
-            </p>
-            <p class="stages__list-content">
-              <span class="stages__list-number">2</span>
-              <span class="stages__list-text">
-                Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
-              </span>
 
-            </p>
-          </div>
-          <div class="stages__item swiper-slide">
-            <p class="stages__list-content">
-              <span class="stages__list-number">3</span>
-              <span class="stages__list-text">
-                Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет
-              </span>
+     <div class="stages__list swiper">
+      <div class="stages__list-wrapper swiper-wrapper">
+        <div class="stages__list-item swiper-slide stages__list-item_first-grid">
+          <p class="stages-text stages-text_first">
+           Строительство железнодорожной магистрали Москва-Васюки
+          </p>
+          <p class="stages-text stages-text_second">
+            Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
+           </p>
+        </div>
 
-            </p>
-          </div>
-          |
-          <div class="stages__item swiper-slide">
-            <p class="stages__list-content">
-              <span class="stages__list-number">4</span>
-              <span class="stages__list-text">
-                Строительство дворца для турнира
-              </span>
-            </p>
-            <p class="stages__list-content">
-              <span class="stages__list-number">5</span>
-              <span class="stages__list-text">
-                Размещение гаражей для гостевого автотранспорта
-              </span>
-            </p>
-          </div>
-          <div class="stages__item swiper-slide">
-            <p class="stages__list-content">
-              <span class="stages__list-number">6</span>
-              <span class="stages__list-text">
-                Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов
-              </span>
-            </p>
-          </div>
-          <div class="stages__item swiper-slide">
-            <p class="stages__list-content">
-              <span class="stages__list-number">7</span>
-              <span class="stages__list-text">
-                Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн
-              </span>
-            </p>
-          </div>
-         </div>
-         <div class="stages__panel">
-          <button type="button" class="stages__buttons stages__buttons_prev swiper-button-prev">
-          </button>
-           <div class="stages__pagination swiper-pagination"></div>
-          <button type="button" class="swiper-button-next stages__buttons_next stages__buttons">
-          </button>
+        <div class="stages__list-item swiper-slide stages__list-item_big stages__list-item_second-grid">
+          <p class="stages-text stages-text_second-big">
+            Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
+           </p>
+        </div>
+
+        <div class="stages__list-item swiper-slide stages__list-item_third-grid">
+          <p class="stages-text stages-text_third">
+            Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет
+          </p>
+        </div>
+        <div class="stages__list-item swiper-slidestages__list-item_fourth-grid">
+          <p class="stages-text stages-text_fourth">
+            Строительство дворца для турнира
+          </p>
+          <p class="stages-text stages-text_five stages-text_five">
+            Размещение гаражей для гостевого автотранспорта
+          </p>
+        </div>
+
+        <div class="stages__list-item swiper-slide stages__list-item_big stages__list-item_five-grid">
+          <p class="stages-text stages-text_five-big ">
+            Размещение гаражей для гостевого автотранспорта
+          </p>
+        </div>
+
+        <div class="stages__list-item swiper-slide stages__list-item_six-grid">
+          <p class="stages-text stages-text_six">
+            Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов
+          </p>
+        </div>
+        <div class="stages__list-item swiper-slide stages__list-item_seven-grid">
+          <p class="stages-text stages-text_seven">
+            Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн
+          </p>
         </div>
       </div>
-      <img class="stages__image" src="img/stages/Frame 48095657.png" alt="Фото" width="335" height="182" >
+
+      <div class="stages__panel">
+      <button class="stages__list-button stages__list-button_prev swiper-button-prev" type="button"></button>
+      <div class="stages__list-pagination swiper-pagination"></div>
+      <button class="stages__list-button stages__list-button_next swiper-button-next" type="button"></button>
+      </div>
+     </div>
+     <img class="stages__image" src="img/stages/Frame 48095657.png" alt="Фото" width="335" height="182" >
     </div>
   </section>
 
 
 
   <section class="participants">
-    <div class="container">
+    <div class="container participants__container">
      <h2 class="participants__title">
       Участники турнира
      </h2>
-     <div class="participants__list list">
-      <div class="list__wrapper swiper-wrapper">
-       <div class="list__item swiper-slide">
-         <img class="list__image" src="img/partisipants/part.png" alt="Фото" width="244" height="244">
-         <h3 class="list__title">Хозе-Рауль Капабланка</h3>
-         <p class="list__text">Чемпион мира по шахматам</p>
-         <a class="list__link" href="#">
+     <div class="participants__list swiper">
+      <div class="participants__list-wrapper swiper-wrapper">
+        <div class="participants__item swiper-slide">
+         <h3 class="participants__item-title">
+          Хозе-Рауль Капабланка
+         </h3>
+         <img class="participants__item-image" src="img/partisipants/part.png" alt="Photo" width="244" height="244">
+         <p class="participants__item-text">
+          Чемпион мира по шахматам
+         </p>
+         <a class="participants__item-link" href="#">
           Подробнее
          </a>
-       </div>
-       <div class="list__item swiper-slide">
-        <img class="list__image" src="img/partisipants/part.png" alt="Фото" width="244" height="244">
-        <h3 class="list__title">Эммануил Ласкер</h3>
-        <p class="list__text">Чемпион мира по шахматам</p>
-        <a class="list__link" href="#">
-         Подробнее
-        </a>
-       </div>
-       <div class="list__item swiper-slide">
-        <img class="list__image" src="img/partisipants/part.png" alt="Фото" width="244" height="244">
-        <h3 class="list__title">Александр Алехин</h3>
-        <p class="list__text">Чемпион мира по шахматам</p>
-        <a class="list__link" href="#">
-         Подробнее
-        </a>
-       </div>
-       <div class="list__item swiper-slide">
-        <img class="list__image" src="img/partisipants/part.png" alt="Фото" width="244" height="244">
-        <h3 class="list__title">Арон Нимцович</h3>
-        <p class="list__text">Чемпион мира по шахматам</p>
-        <a class="list__link" href="#">
-         Подробнее
-        </a>
-       </div>
-       <div class="list__item swiper-slide">
-        <img class="list__image" src="img/partisipants/part.png" alt="Фото" width="244" height="244">
-        <h3 class="list__title">Рихард Рети</h3>
-        <p class="list__text">Чемпион мира по шахматам</p>
-        <a class="list__link" href="#">
-         Подробнее
-        </a>
-       </div>
-       <div class="list__item swiper-slide">
-        <img class="list__image" src="img/partisipants/part.png" alt="Фото" width="244" height="244">
-        <h3 class="list__title">Остап Бендер</h3>
-        <p class="list__text">Гроссмейстер</p>
-        <a class="list__link" href="#">
-         Подробнее
-        </a>
-       </div>
-
+        </div>
+        <div class="participants__item swiper-slide">
+          <h3 class="participants__item-title">
+            Эммануил Ласкер
+          </h3>
+          <img class="participants__item-image" src="img/partisipants/part.png" alt="Photo" width="244" height="244">
+          <p class="participants__item-text">
+           Чемпион мира по шахматам
+          </p>
+          <a class="participants__item-link" href="#">
+           Подробнее
+          </a>
+        </div>
+        <div class="participants__item swiper-slide">
+          <h3 class="participants__item-title">
+            Александр Алехин
+          </h3>
+          <img class="participants__item-image" src="img/partisipants/part.png" alt="Photo" width="244" height="244">
+          <p class="participants__item-text">
+           Чемпион мира по шахматам
+          </p>
+          <a class="participants__item-link" href="#">
+           Подробнее
+          </a>
+        </div>
+        <div class="participants__item swiper-slide">
+          <h3 class="participants__item-title">
+            Арон Нимцович
+          </h3>
+          <img class="participants__item-image" src="img/partisipants/part.png" alt="Photo" width="244" height="244">
+          <p class="participants__item-text">
+           Чемпион мира по шахматам
+          </p>
+          <a class="participants__item-link" href="#">
+           Подробнее
+          </a>
+        </div>
+        <div class="participants__item swiper-slide">
+          <h3 class="participants__item-title">
+            Рихард Рети
+          </h3>
+          <img class="participants__item-image" src="img/partisipants/part.png" alt="Photo" width="244" height="244">
+          <p class="participants__item-text">
+           Чемпион мира по шахматам
+          </p>
+          <a class="participants__item-link" href="#">
+           Подробнее
+          </a>
+        </div>
+        <div class="participants__item swiper-slide">
+          <h3 class="participants__item-title">
+            Остап Бендер
+          </h3>
+          <img class="participants__item-image" src="img/partisipants/part.png" alt="Photo" width="244" height="244">
+          <p class="participants__item-text">
+           Гросмейстер
+          </p>
+          <a class="participants__item-link" href="#">
+           Подробнее
+          </a>
+        </div>
       </div>
-      <div class="stages__panel participants__panel">
-        <button type="button" class="stages__buttons stages__buttons_prev swiper-button-prev">
-        </button>
-         <div class="stages__pagination swiper-pagination number-pagination"></div>
-        <button type="button" class="swiper-button-next stages__buttons_next stages__buttons">
-        </button>
+      <div class="participants__panel">
+        <button class="participants__list-button participants__list-button_prev swiper-button-prev" type="button"></button>
+        <div class="participants__list-pagination swiper-pagination"></div>
+        <button class="participants__list-button participants__list-button_next swiper-button-next" type="button"></button>
       </div>
      </div>
     </div>
@@ -282,6 +308,19 @@
 
  </main>
  <footer class="footer">
+  <div class="tickers">
+    <div class="tickers__wrapper">
+      <p class="tickers__slide">
+       - Помощь утопающим — дело рук самих утопающих!
+      </p>
+      <p class="tickers__slide">
+        * Шахматы двигают вперёд не только культуру, но и экономику!
+      </p>
+      <p class="tickers__slide">
+        Лед тронулся, господа присяжные заседатели!
+      </p>
+    </div>
+  </div>
   <div class="container">
     <p class="footer__text">
       Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
@@ -292,3 +331,4 @@
 <script src="js/main.js"></script>
 </body>
 </html>
+

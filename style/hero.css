@@ -5,7 +5,8 @@
   background-image: url(../img/hero/bg-fon.png);
   background-repeat:no-repeat ;
   background-position: center bottom;
-  background-size:100% auto ;
+  background-size:100% 100% ;
+  
 }
 .hero__title {
   font-family:'Merriweather',sans-serif;
@@ -50,6 +51,15 @@ margin-bottom: 28px;
 .hero__link_color:hover{
   color:var(--white);
   background-color: var(--black);
+}
+
+
+
+
+@media(min-width:400px){
+  .hero{
+    background-size:100% auto ;
+  }
 }
 @media(min-width:768px){
   .hero{
